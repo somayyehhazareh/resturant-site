@@ -1,0 +1,141 @@
+.container{
+    min-width: 1200px;
+}
+
+
+
+
+
+.login{
+   border: 1px solid rgb(235, 205, 165);
+    width: 50%;
+    height: 550px;
+    margin: 170px auto;
+
+
+}
+ .login .left{
+    width: 45%;
+    height: 100%;
+    
+float: left;
+background-color: rgba(0,0, 0, 0.5
+);
+
+}
+.login .right{
+    width: 55%;
+    height: 100%;
+ 
+float: right;
+}
+.left .flach{
+    float: left;
+    margin-top: 7px;
+    margin-left: 8px;
+    font-size: 20px;
+    color: rgb(221, 213, 228);
+
+}
+.left .rigester{
+    float: right;
+    margin-top: 7px;
+    margin-right: 8px;
+    font-size: 20px;
+    color: rgb(221, 213, 228);
+
+
+}
+.arow{
+    margin-top: 50px;
+}
+.arow p#p1{
+    font-size: 28px;
+    margin-left: 15px;
+
+
+}
+.arow p#p2{
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(221, 213, 228);
+
+
+}
+.clrar{
+    clear: both;
+}
+
+input#a1{margin-top: 25px;
+
+    
+    
+}
+input#a2{
+margin-top: 10px;
+
+    
+}
+input{
+    width: 230px;
+    height: 25px;
+    margin-left:40px;
+    border-radius: 8px;
+   
+  border: 1px solid rgb(255, 223, 181);
+  color: black;
+  
+}
+.send{
+    margin-top: 15px;
+    margin-left: 5px;
+    color: rgb(186, 124, 245);
+  
+}
+.send input{
+    height:30px ;
+    color:black;
+}
+hr{
+    margin-top: 30px;
+    width: 290px;
+  height: 20px;
+  background-color: rgb(235, 202, 150);
+  border-radius: 12px;
+}
+p#s1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(221, 213, 228);
+}
+.order-redios{
+    margin-left: 75px;
+    font-size: 30px;
+
+}
+.order-redios a#d2,a#d3{
+    margin-left: 25px;
+    color: rgb(221, 213, 228);
+
+   
+}
+body{
+  background: url(./images/BG.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .right{
+    background-image: url(./images/img.png);
+    background-size: cover;
+    background-position: center;
+}
+.login:hover .right{
+    background-position: right;
+  
+    transition: all ease 1s;
+}
+.order-redios a#d1{
+    color: rgb(221, 213, 228);
+
+}
